@@ -3,11 +3,11 @@
 Sito statico con la selezione verificata di case vacanze a Creta per 4 persone,
 dal 3 al 17 settembre 2026.
 
-**👉 [Apri il sito](https://FABRIZIO.github.io/creta-2026/)** *(link da aggiornare dopo la pubblicazione)*
+**👉 [Apri il sito](https://fabdev-it.github.io/creta-2026/)**
 
 ## Cosa c'è dentro
 
-- `site/index.html` — il sito, pagina singola, senza dipendenze esterne
+- `index.html` — il sito, pagina singola, senza dipendenze esterne
 - `case-creta-3-17-settembre-2026.md` — la stessa ricerca in formato documento
 
 ## I criteri
@@ -34,7 +34,7 @@ parcheggio, condizioni di cancellazione, licenza e tipo di host.
 
 ## Aggiornare i dati
 
-I dati stanno nell'array `DATA` dentro `site/index.html`, uno per casa.
+I dati stanno nell'array `DATA` dentro `index.html`, uno per casa.
 Per aggiungere o correggere una casa basta modificare quell'array — non serve altro.
 
 Il campo `id` è lo slug Booking: il link viene costruito come
@@ -48,7 +48,5 @@ verifica sempre sulla pagina Booking prima di prenotare. Due case della selezion
 
 ## Pubblicare su GitHub Pages
 
-Impostazioni del repository → Pages → Source: `Deploy from a branch` → branch `main`,
-cartella `/ (root)`, poi apri `https://<utente>.github.io/creta-2026/site/`.
-
-In alternativa, per avere il sito nella root: sposta `site/index.html` in `index.html`.
+Settings → Pages → Source: `Deploy from a branch` → branch `main`, cartella `/ (root)`.
+Dopo un paio di minuti il sito è online su https://fabdev-it.github.io/creta-2026/
