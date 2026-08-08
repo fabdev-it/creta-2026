@@ -4,106 +4,109 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Case a Creta — 3-17 settembre 2026</title>
-<meta name="description" content="Selezione verificata di case vacanze a Creta per 4 persone, 3-17 settembre 2026.">
+<meta name="description" content="Selezione verificata di case vacanze a Creta per 4 persone, 3-17 settembre 2026. Tutte con parcheggio e 4 posti letto veri.">
 <style>
   :root{
     --bg:#0f1115; --panel:#171a21; --panel2:#1d212a; --line:#2a2f3a;
     --txt:#e8eaf0; --dim:#9aa3b2; --acc:#5eead4; --warn:#fbbf24; --bad:#f87171; --good:#4ade80;
-    --radius:14px;
+    --ctaTxt:#06231f; --radius:14px;
   }
   @media (prefers-color-scheme: light){
     :root{ --bg:#f6f7f9; --panel:#fff; --panel2:#f0f2f6; --line:#dde1e8;
-           --txt:#16181d; --dim:#5d6572; --acc:#0d9488; --warn:#b45309; --bad:#dc2626; --good:#15803d; }
+           --txt:#16181d; --dim:#5d6572; --acc:#0d9488; --warn:#b45309; --bad:#dc2626; --good:#15803d;
+           --ctaTxt:#fff; }
   }
   :root[data-theme="dark"]{ --bg:#0f1115; --panel:#171a21; --panel2:#1d212a; --line:#2a2f3a;
-    --txt:#e8eaf0; --dim:#9aa3b2; --acc:#5eead4; --warn:#fbbf24; --bad:#f87171; --good:#4ade80; }
+    --txt:#e8eaf0; --dim:#9aa3b2; --acc:#5eead4; --warn:#fbbf24; --bad:#f87171; --good:#4ade80; --ctaTxt:#06231f; }
   :root[data-theme="light"]{ --bg:#f6f7f9; --panel:#fff; --panel2:#f0f2f6; --line:#dde1e8;
-    --txt:#16181d; --dim:#5d6572; --acc:#0d9488; --warn:#b45309; --bad:#dc2626; --good:#15803d; }
+    --txt:#16181d; --dim:#5d6572; --acc:#0d9488; --warn:#b45309; --bad:#dc2626; --good:#15803d; --ctaTxt:#fff; }
 
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--txt);
     font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     -webkit-text-size-adjust:100%}
-  .wrap{max-width:1180px;margin:0 auto;padding:28px 18px 80px}
+  .wrap{max-width:1200px;margin:0 auto;padding:28px 18px 80px}
   a{color:var(--acc)}
   h1{font-size:clamp(1.6rem,4vw,2.3rem);margin:0 0 6px;letter-spacing:-.02em}
-  h2{font-size:clamp(1.2rem,2.6vw,1.5rem);margin:44px 0 14px;letter-spacing:-.01em}
-  .sub{color:var(--dim);margin:0 0 26px;font-size:1.02rem}
-  .badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:.76rem;
-    font-weight:600;background:var(--panel2);border:1px solid var(--line);color:var(--dim)}
+  h2{font-size:clamp(1.2rem,2.6vw,1.5rem);margin:46px 0 14px;letter-spacing:-.01em}
+  h3.area{font-size:1rem;text-transform:uppercase;letter-spacing:.09em;color:var(--dim);
+    margin:34px 0 4px;font-weight:700}
+  h3.area + p.areasub{margin:0 0 16px;color:var(--dim);font-size:.9rem}
+  .sub{color:var(--dim);margin:0 0 22px;font-size:1.02rem}
 
-  /* criteri */
-  .crit{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px}
-  .crit span{background:var(--panel);border:1px solid var(--line);padding:6px 12px;
-    border-radius:999px;font-size:.86rem}
+  /* requisiti */
+  .reqs{display:grid;gap:10px;grid-template-columns:1fr;margin:0 0 22px}
+  @media(min-width:700px){.reqs{grid-template-columns:repeat(2,1fr)}}
+  .req{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:11px 14px;display:flex;gap:10px;align-items:flex-start;font-size:.92rem}
+  .req .tick{color:var(--good);font-weight:700;flex:none}
+  .req .tick.part{color:var(--warn)}
+  .req b{display:block}
+  .req span.d{color:var(--dim);font-size:.86rem}
 
-  /* callout */
   .note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);
     border-radius:var(--radius);padding:16px 18px;margin:22px 0}
   .note.warn{border-left-color:var(--warn)}
+  .note.bad{border-left-color:var(--bad)}
   .note p{margin:0 0 8px} .note p:last-child{margin:0}
 
-  /* controlli */
   .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
   button.f{background:var(--panel);color:var(--txt);border:1px solid var(--line);
     padding:7px 13px;border-radius:999px;font-size:.85rem;cursor:pointer;font-family:inherit}
   button.f:hover{border-color:var(--acc)}
-  button.f[aria-pressed="true"]{background:var(--acc);color:#06231f;border-color:var(--acc);font-weight:600}
-  @media (prefers-color-scheme: light){button.f[aria-pressed="true"]{color:#fff}}
-  :root[data-theme="light"] button.f[aria-pressed="true"]{color:#fff}
-  :root[data-theme="dark"] button.f[aria-pressed="true"]{color:#06231f}
+  button.f[aria-pressed="true"]{background:var(--acc);color:var(--ctaTxt);border-color:var(--acc);font-weight:600}
   .count{color:var(--dim);font-size:.85rem;margin-left:auto}
 
-  /* tabella */
   .tablebox{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
-  table{border-collapse:collapse;width:100%;min-width:900px;font-size:.9rem}
-  th,td{padding:11px 13px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
-  thead th{background:var(--panel2);font-size:.78rem;text-transform:uppercase;
+  table{border-collapse:collapse;width:100%;min-width:1000px;font-size:.89rem}
+  th,td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+  thead th{background:var(--panel2);font-size:.75rem;text-transform:uppercase;
     letter-spacing:.05em;color:var(--dim);cursor:pointer;user-select:none;position:sticky;top:0}
   thead th:hover{color:var(--txt)}
-  thead th::after{content:"";opacity:.4;margin-left:6px}
-  thead th.asc::after{content:"▲"} thead th.desc::after{content:"▼"}
+  thead th.asc::after{content:" ▲"} thead th.desc::after{content:" ▼"}
   tbody tr:hover{background:var(--panel2)}
   tbody tr:last-child td{border-bottom:none}
-  td.name{font-weight:600;white-space:normal;min-width:160px}
+  td.name{font-weight:600;white-space:normal;min-width:150px}
   td.price{font-weight:700}
+  td.letti{white-space:normal;min-width:180px}
   .yes{color:var(--good)} .no{color:var(--bad)} .mid{color:var(--warn)}
 
-  /* schede */
   .cards{display:grid;gap:18px;grid-template-columns:1fr}
-  @media(min-width:820px){.cards{grid-template-columns:1fr 1fr}}
+  @media(min-width:840px){.cards{grid-template-columns:1fr 1fr}}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
     padding:20px;display:flex;flex-direction:column}
-  .card.top{border-color:var(--acc)}
-  .card h3{margin:0 0 2px;font-size:1.12rem;letter-spacing:-.01em}
-  .card .where{color:var(--dim);font-size:.87rem;margin:0 0 12px}
-  .pricerow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 14px}
-  .big{font-size:1.7rem;font-weight:700;letter-spacing:-.02em}
+  .card h4{margin:0 0 2px;font-size:1.1rem;letter-spacing:-.01em}
+  .card .where{color:var(--dim);font-size:.86rem;margin:0 0 12px}
+  .pricerow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 12px}
+  .big{font-size:1.65rem;font-weight:700;letter-spacing:-.02em}
   .was{color:var(--dim);text-decoration:line-through;font-size:.9rem}
-  .per{color:var(--dim);font-size:.82rem}
+  .per{color:var(--dim);font-size:.8rem}
   .score{margin-left:auto;background:var(--panel2);border:1px solid var(--line);
     border-radius:8px;padding:4px 9px;font-weight:700;font-size:.9rem}
-  .card p{margin:0 0 12px;font-size:.93rem}
+  .keyrow{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 13px}
+  .chip{font-size:.78rem;padding:4px 9px;border-radius:999px;border:1px solid var(--line);
+    background:var(--panel2)}
+  .chip.ok{border-color:var(--good);color:var(--good)}
+  .chip.wr{border-color:var(--warn);color:var(--warn)}
+  .chip.bd{border-color:var(--bad);color:var(--bad)}
+  .card p.desc{margin:0 0 12px;font-size:.92rem}
   dl.facts{display:grid;grid-template-columns:auto 1fr;gap:5px 14px;margin:0 0 14px;
-    font-size:.87rem;border-top:1px solid var(--line);padding-top:12px}
+    font-size:.86rem;border-top:1px solid var(--line);padding-top:12px}
   dl.facts dt{color:var(--dim)}
   dl.facts dd{margin:0}
   .pc{display:grid;gap:12px;margin:0 0 16px}
-  @media(min-width:520px){.pc{grid-template-columns:1fr 1fr}}
-  .pc h4{margin:0 0 6px;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
-  .pro h4{color:var(--good)} .con h4{color:var(--bad)}
-  .pc ul{margin:0;padding-left:17px;font-size:.88rem}
+  @media(min-width:540px){.pc{grid-template-columns:1fr 1fr}}
+  .pc h5{margin:0 0 6px;font-size:.76rem;text-transform:uppercase;letter-spacing:.06em}
+  .pro h5{color:var(--good)} .con h5{color:var(--bad)}
+  .pc ul{margin:0;padding-left:17px;font-size:.87rem}
   .pc li{margin-bottom:5px}
   .cta{margin-top:auto;display:inline-block;text-align:center;background:var(--acc);
-    color:#06231f;text-decoration:none;font-weight:700;padding:11px 16px;border-radius:10px;font-size:.92rem}
+    color:var(--ctaTxt);text-decoration:none;font-weight:700;padding:11px 16px;
+    border-radius:10px;font-size:.92rem}
   .cta:hover{filter:brightness(1.08)}
-  @media (prefers-color-scheme: light){.cta{color:#fff}}
-  :root[data-theme="light"] .cta{color:#fff}
-  :root[data-theme="dark"] .cta{color:#06231f}
 
   footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);
     color:var(--dim);font-size:.85rem}
-  .hidden{display:none !important}
 </style>
 </head>
 <body>
@@ -112,28 +115,28 @@
 <h1>Case a Creta</h1>
 <p class="sub"><strong>3-17 settembre 2026</strong> · 4 adulti · 14 notti · con auto a noleggio</p>
 
-<div class="crit">
-  <span>🏠 Casa intera</span>
-  <span>🛏️ Letto vero per tutti e 4</span>
-  <span>🌿 Giardino o terrazza</span>
-  <span>🅿️ Parcheggio</span>
-  <span>💶 Max €2.000</span>
+<h2 style="margin-top:8px">I requisiti, e come stanno messe</h2>
+<div class="reqs">
+  <div class="req"><span class="tick">✅</span><span><b>Parcheggio</b>
+    <span class="d">Tutte e 8 hanno parcheggio <strong>gratuito</strong>, 5 su 8 privato sul posto. Nessuna richiede parcheggio in strada.</span></span></div>
+  <div class="req"><span class="tick part">◐</span><span><b>4 posti letto veri</b>
+    <span class="d">7 su 8 hanno 4 letti veri senza usare divani letto — matrimoniale + 2 singoli oppure 2 matrimoniali. L'unica eccezione è CARA Creta Home, che usa un letto a castello.</span></span></div>
+  <div class="req"><span class="tick">✅</span><span><b>Giardino o terrazza</b>
+    <span class="d">Tutte hanno la terrazza. 6 su 8 hanno anche il giardino; CARA Creta e Capostango hanno solo terrazza e patio.</span></span></div>
+  <div class="req"><span class="tick">✅</span><span><b>Budget ≤ €2.000</b>
+    <span class="d">Si va da €1.208 a €1.799 per le due settimane, tasse incluse. Tutte sotto il tetto.</span></span></div>
 </div>
 
 <div class="note">
-  <p><strong>Come è stata fatta la selezione.</strong> Su Booking, con i filtri casa intera + 2 camere da letto + terrazza + parcheggio + max €145/notte, su tutta Creta restano <strong>209 case</strong>. Queste 8 sono quelle sopravvissute al controllo manuale scheda per scheda: letti camera per camera, distanze reali, parcheggio, condizioni di cancellazione.</p>
-  <p style="color:var(--dim);font-size:.88rem">Prezzi e disponibilità rilevati l'<strong>8 agosto 2026</strong>. Totale per 14 notti, 4 adulti, tasse e costi inclusi.</p>
-</div>
-
-<div class="note warn">
-  <p><strong>Il compromesso che sblocca il budget.</strong> Con "a piedi dalla spiaggia <em>e</em> dal centro", a Rethymno e Chania città le case con 2 camere, terrazza e parcheggio costavano <strong>€2.000-4.300</strong> per le due settimane (Asikiko Suites €3.634, Infinity Suites €4.274, Kyma Haven €4.464). Sotto i €2.000 con parcheggio si sta fuori dai centri: est dell'isola e costa sud.</p>
-  <p><strong>Unica eccezione:</strong> Villa MALENA. Le recensioni confermano <em>10 minuti a piedi</em> dalla piazza del paese e dalla spiaggia — è l'unica che soddisfa ancora i criteri originali.</p>
+  <p><strong>Come è stata fatta la selezione.</strong> Su Booking, filtrando casa intera + 2 camere da letto + terrazza + parcheggio + max €145/notte, su tutta Creta restano <strong>209 case</strong>. Queste 8 sono quelle sopravvissute al controllo manuale scheda per scheda: letti camera per camera, distanze reali, tipo di parcheggio, condizioni di cancellazione.</p>
+  <p style="color:var(--dim);font-size:.88rem">Prezzi e disponibilità rilevati l'<strong>8 agosto 2026</strong>. Totale 14 notti, 4 adulti, tasse e costi inclusi.</p>
 </div>
 
 <h2>Confronto</h2>
 <div class="controls">
-  <button class="f" id="f-mat" aria-pressed="false">Solo 2 matrimoniali</button>
-  <button class="f" id="f-canc" aria-pressed="false">Solo cancellazione gratuita</button>
+  <button class="f" id="f-letti" aria-pressed="false">Solo 4 letti veri</button>
+  <button class="f" id="f-canc" aria-pressed="false">Cancellazione gratuita</button>
+  <button class="f" id="f-bagni" aria-pressed="false">Due bagni</button>
   <button class="f" id="f-mare" aria-pressed="false">Spiaggia entro 1,5 km</button>
   <button class="f" id="f-reset" aria-pressed="false">Azzera</button>
   <span class="count" id="count"></span>
@@ -146,39 +149,45 @@
   <th data-k="zona">Zona</th>
   <th data-k="prezzo" data-n="1">Prezzo</th>
   <th data-k="voto" data-n="1">Voto</th>
-  <th data-k="camere" data-n="1">Camere</th>
-  <th data-k="mq" data-n="1">m²</th>
+  <th data-k="lettiOk" data-n="1">Letti</th>
+  <th data-k="parkOk" data-n="1">Parcheggio</th>
   <th data-k="bagni" data-n="1">Bagni</th>
+  <th data-k="mq" data-n="1">m²</th>
   <th data-k="spiaggiaKm" data-n="1">Spiaggia</th>
-  <th data-k="matSort" data-n="1">2 matrimoniali?</th>
-  <th data-k="cancSort" data-n="1">Cancellazione</th>
+  <th data-k="canc" data-n="1">Cancellazione</th>
   <th data-k="aeroKm" data-n="1">Aeroporto</th>
 </tr></thead>
 <tbody id="tb"></tbody>
 </table>
 </div>
 
-<h2>Le schede</h2>
-<div class="cards" id="cards"></div>
+<h2>Le schede, per zona</h2>
+<div id="areas"></div>
 
-<h2>Le tre cose che decidono</h2>
+<h2>Cosa distingue davvero queste 8</h2>
+
+<div class="note bad">
+  <p><strong>Due case non si possono cancellare.</strong> <strong>Villa Katerina</strong> e <strong>Villa MALENA</strong> sono non rimborsabili con pagamento online immediato. Su Villa Katerina Booking segnala anche "ne resta 1". Sono proprio le due più interessanti come rapporto qualità-prezzo, e sono quelle che ti costringono a decidere senza rete.</p>
+</div>
+
+<div class="note warn">
+  <p><strong>Solo due case hanno due bagni:</strong> Villa Mia e Villa MALENA. Le altre sei ne hanno uno solo, per quattro persone e quattordici notti di fila. È il vincolo che si sente di più nell'uso quotidiano, molto più dei metri quadri.</p>
+</div>
 
 <div class="note">
-  <p><strong>1. Siete due coppie?</strong> Se sì, metà della lista salta: Villa Katerina, Capostango e Infinity Blue hanno <strong>1 matrimoniale + 2 letti singoli</strong>, quindi una coppia dorme separata per due settimane. Restano Villa Mia, Villa MALENA, Afrodite's House e Karel house.</p>
-  <p><strong>2. "Matrimoniale alla francese" è un letto da 140 cm</strong>, non un matrimoniale standard da 160-180. In due ci si sta, ma stretti. Gli unici con matrimoniali <em>veri</em> sono <strong>Villa Mia</strong> e <strong>Karel house</strong>.</p>
-  <p><strong>3. Due case non si possono cancellare.</strong> Villa Katerina e Villa MALENA sono <strong>non rimborsabili con pagamento online immediato</strong>. Su Villa Katerina compare anche "ne resta 1". Sono le due che costringono a decidere subito e senza rete.</p>
+  <p><strong>Sulla larghezza dei letti.</strong> "Matrimoniale alla francese" su Booking è un letto da <strong>140 cm</strong>, non un matrimoniale standard da 160-180. In due ci si sta, ma stretti. Hanno matrimoniali veri solo <strong>Villa Mia</strong>, <strong>Villa Katerina</strong>, <strong>Infinity Blue</strong> e <strong>Karel house</strong>.</p>
 </div>
 
 <h2>Dove atterrare</h2>
 <div class="note">
-  <p>Le case dell'ovest sono molto più comode da raggiungere: <strong>Afrodite's House 27 km, CARA Creta 33 km, Karel house 36 km</strong> dall'aeroporto di Chania. Quelle dell'est stanno tra i <strong>53 e gli 89 km</strong> dall'aeroporto più vicino — e Villa Katerina è a 7 km da Sitia, ma è uno scalo minuscolo con pochissimi collegamenti.</p>
+  <p>Le case dell'<strong>ovest</strong> sono molto più comode: 27, 33 e 36 km dall'aeroporto di Chania. Quelle dell'<strong>est</strong> stanno tra 53 e 83 km dall'aeroporto più vicino — Villa Katerina è a 7 km da Sitia, ma è uno scalo minuscolo con pochissimi collegamenti, quindi realisticamente si atterra a Heraklion e si guida.</p>
   <p>Capostango è la più scomoda in assoluto: <strong>89 km da Chania</strong>, con strade di montagna nell'ultimo tratto.</p>
   <p style="color:var(--dim);font-size:.88rem">Ancora da verificare: voli Napoli → Heraklion / Chania per il 3 e il 17 settembre, e il noleggio auto.</p>
 </div>
 
 <footer>
-  Dati rilevati manualmente da Booking.com l'8 agosto 2026 aprendo ogni singola scheda.
-  Prezzi e disponibilità cambiano: verifica sempre sulla pagina prima di prenotare.
+  Dati rilevati manualmente da Booking.com l'8 agosto 2026, aprendo ogni singola scheda.
+  Prezzi e disponibilità cambiano di continuo: verifica sempre sulla pagina prima di prenotare.
 </footer>
 
 </div>
@@ -187,140 +196,146 @@
 const DATA = [
 {
   id:"villamia", nome:"Villa Mia", nomeFull:"Villa Mia — Peaceful Oasis in Ierapetra Crete",
-  zona:"Ierapetra", where:"Vainia, Ierapetra — costa sud-est",
-  prezzo:1208, prezzoWas:null, voto:9.7, rec:3, votoTxt:"Eccezionale",
+  area:"est", zona:"Ierapetra", where:"Vainia, Ierapetra — costa sud-est",
+  prezzo:1208, prezzoWas:null, voto:9.7, rec:3,
   camere:3, mq:150, bagni:2, spiaggiaKm:2.9, spiaggiaNome:"Agios Andreas",
   aeroKm:83, aeroNome:"Heraklion 83 km · Sitia 53 km",
-  mat:2, matTxt:"4 matrimoniali (2 veri)",
-  canc:2, cancTxt:"Gratuita entro il 20 ago",
+  lettiOk:2, lettiTxt:"2 matrimoniali + 2 alla francese",
   letti:"Cam. 1: 1 matrimoniale · Cam. 2: 1 matrimoniale alla francese · Cam. 3: 1 matrimoniale alla francese + 1 matrimoniale · Soggiorno: 1 divano letto",
+  parkOk:2, parkTxt:"Privato gratuito",
+  canc:2, cancTxt:"Gratuita entro il 20 ago",
+  giardino:true,
   serv:"Giardino, terrazza, patio, balcone, piscina, barbecue, lavastoviglie, macchina da caffè, minibar, insonorizzazione, A/C, WiFi",
-  park:"Gratuito sul posto",
   host:"Host privato (Holihouse) · lic. 00003326093",
-  top:true,
   desc:"Villa intera di 150 m² con 3 camere e 2 bagni, in campagna appena fuori Ierapetra. È di gran lunga la più grande della selezione e costa meno di tutte. Piscina, barbecue, giardino e terrazza.",
-  pro:["Il prezzo più basso per la casa più grande: 150 m², 3 camere, 2 bagni","L'unica dove tutti e quattro dormono in un matrimoniale","Cancellazione gratuita fino al 20 agosto, nessun pagamento anticipato","Ierapetra è la zona più calda e soleggiata dell'isola a settembre"],
-  con:["Solo 3 recensioni: il 9,7 conta poco, è il rischio principale","83 km da Heraklion, dall'altra parte dell'isola rispetto a Balos ed Elafonissi","Nessuna spiaggia a piedi: 2,9 km, sempre in auto","Colazione a parte, €25"]
+  pro:["Il prezzo più basso per la casa più grande: 150 m², 3 camere, 2 bagni","Quattro letti matrimoniali: nessuno dorme in un singolo","Cancellazione gratuita fino al 20 agosto, nessun pagamento anticipato","Ierapetra è la zona più calda e soleggiata dell'isola a settembre"],
+  con:["Solo 3 recensioni: il 9,7 conta poco, è il rischio principale","83 km da Heraklion, all'estremo opposto rispetto a Balos ed Elafonissi","Nessuna spiaggia a piedi: 2,9 km, sempre in auto","Colazione a parte, €25"]
 },
 {
   id:"villa-katerina-agia-fotia", nome:"Villa Katerina", nomeFull:"Villa Katerina Holiday Apartments",
-  zona:"Sitia", where:"Agia Fotia, Sitia — estremo est",
-  prezzo:1288, prezzoWas:null, voto:9.6, rec:32, votoTxt:"Eccezionale",
+  area:"est", zona:"Sitia", where:"Agia Fotia, Sitia — estremo est",
+  prezzo:1288, prezzoWas:null, voto:9.6, rec:32,
   camere:2, mq:50, bagni:1, spiaggiaKm:2.6, spiaggiaNome:"Karabopetra",
   aeroKm:7, aeroNome:"Sitia 7 km · Kasos 90 km",
-  mat:0, matTxt:"1 matrim. + 2 singoli",
-  canc:0, cancTxt:"Non rimborsabile",
+  lettiOk:2, lettiTxt:"1 matrimoniale + 2 singoli",
   letti:"Cam. 1: 1 letto matrimoniale · Cam. 2: 2 letti singoli",
+  parkOk:2, parkTxt:"Privato gratuito",
+  canc:0, cancTxt:"Non rimborsabile",
+  giardino:true,
   serv:"Giardino, terrazza, patio, balcone, piscina, barbecue, vista mare, macchina da caffè, insonorizzazione, A/C, WiFi",
-  park:"Privato gratuito sul posto",
   host:"Host professionista · lic. 1040Κ131Κ3192501",
-  top:true,
   desc:"Casa vacanze di 50 m² in un villaggio costiero tranquillo vicino a Sitia. È la casa con il punteggio più solido della selezione: 9,6 su 32 recensioni, quasi tutte che elogiano la gentilezza della proprietaria.",
-  pro:["Il dato più affidabile della lista: 9,6 con 32 recensioni","Giardino, terrazza e piscina, vista mare","Aeroporto di Sitia a 7 km: praticamente zero trasferimento","Vai, Xerokambos e le spiagge dell'estremo est a portata"],
-  con:["Non rimborsabile e si paga subito online: zero flessibilità","Solo 50 m² e un bagno per quattro persone, per due settimane","Una coppia dorme in due letti singoli","Da Heraklion sono circa 3 ore di auto","Booking segnala che ne resta una sola"]
+  pro:["Il dato più affidabile della lista: 9,6 su 32 recensioni","Configurazione letti esattamente come la volevi: 1 matrimoniale vero + 2 singoli","Giardino, terrazza e piscina, vista mare","Aeroporto di Sitia a 7 km","Vai, Xerokambos e le spiagge dell'estremo est a portata"],
+  con:["Non rimborsabile e si paga subito online: zero flessibilità","Solo 50 m² e un bagno per quattro persone, per due settimane","Da Heraklion sono circa 3 ore di auto","Booking segnala che ne resta una sola"]
 },
 {
   id:"villa-malena-nature-and-sea-view", nome:"Villa MALENA", nomeFull:"Villa MALENA Nature and Sea View",
-  zona:"Psari Forada", where:"Sidonia, Psari Forada — costa sud-est",
-  prezzo:1649, prezzoWas:null, voto:9.2, rec:11, votoTxt:"Eccellente",
+  area:"est", zona:"Psari Forada", where:"Sidonia, Psari Forada — costa sud-est",
+  prezzo:1649, prezzoWas:null, voto:9.2, rec:11,
   camere:2, mq:65, bagni:2, spiaggiaKm:0.75, spiaggiaNome:"Sidonia",
   aeroKm:71, aeroNome:"Heraklion 71 km · Sitia 82 km",
-  mat:1, matTxt:"2 matrim. alla francese",
-  canc:0, cancTxt:"Non rimborsabile",
+  lettiOk:2, lettiTxt:"2 matrimoniali alla francese",
   letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 1 matrimoniale alla francese · Soggiorno: 1 divano letto",
+  parkOk:2, parkTxt:"Privato gratuito",
+  canc:0, cancTxt:"Non rimborsabile",
+  giardino:true,
   serv:"Giardino, terrazza, patio, balcone, barbecue, vista mare, macchina da caffè, insonorizzazione, A/C, WiFi",
-  park:"Privato gratuito",
   host:"Host privato · lic. 00000953847",
-  top:true,
   desc:"Appartamento di 65 m² con 2 camere e 2 bagni su una collina della costa sud-est, con vista mare. È l'unica casa della selezione che soddisfa ancora i criteri originali: le recensioni parlano di 10 minuti a piedi dalla piazza del paese e dalla spiaggia.",
   pro:["Spiaggia a 750 m — le recensioni confermano 10 minuti a piedi, in piano","Due bagni: con 4 persone per 14 notti fa una differenza enorme","Due camere matrimoniali, una per coppia","Giardino, terrazza, barbecue e vista mare vera"],
   con:["Non rimborsabile e pagamento online immediato","I due letti sono alla francese: 140 cm, stretti in due","11 recensioni: discreto ma non solidissimo","Psari Forada è minuscola: per tutto il resto serve l'auto"]
 },
 {
-  id:"capostango-house-agapi-stunning-views-of-libyan-sea", nome:"Capostango", nomeFull:"Capostango Apartments — Stunning Views of Libyan Sea",
-  zona:"Costa sud", where:"Ano Rodakino — 7,7 km da Plakias",
-  prezzo:1606, prezzoWas:1736, voto:9.5, rec:33, votoTxt:"Eccezionale",
-  camere:2, mq:50, bagni:1, spiaggiaKm:2.9, spiaggiaNome:"Klimata",
-  aeroKm:89, aeroNome:"Chania-Souda 89 km",
-  mat:0, matTxt:"1 matrim. + 2 singoli",
-  canc:2, cancTxt:"Gratuita entro il 20 ago",
-  letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 2 letti singoli · Soggiorno: 2 divani letto",
-  serv:"Terrazza, patio, balcone, barbecue, lavatrice, macchina da caffè, A/C, WiFi",
-  park:"Gratuito",
-  host:"lic. 00003848882 e altre",
-  top:true,
-  desc:"Appartamento di 50 m² affacciato sul Mar Libico, tra Plakias e Frangokastello. Punteggio servizi 9,6. La posizione al centro della costa sud lo rende la base migliore per girare l'isola.",
-  pro:["33 recensioni con 9,5: insieme a Villa Katerina il dato più affidabile","Posizione strategica: Preveli, Triopetra, Agios Pavlos, Frangokastello e Rethymno in giornata","Cancellazione gratuita fino al 20 agosto, e c'è uno sconto del 7%","Lavatrice — su due settimane conta davvero","Quattro spiagge diverse entro 3,5 km"],
-  con:["89 km dall'aeroporto di Chania, l'ultimo tratto su strade di montagna","50 m² e un bagno solo in quattro","Una coppia dorme separata, e il matrimoniale è alla francese","Nella scheda della camera risulta vista montagna, non vista mare, nonostante il nome","Nessun giardino: solo terrazza, patio e balcone"]
-},
-{
   id:"infinity-blue-agios-nikolaos", nome:"Infinity Blue", nomeFull:"Infinity Blue",
-  zona:"Ag. Nikolaos", where:"Mikro Vathi, Agios Nikolaos — est",
-  prezzo:1561, prezzoWas:1722, voto:9.4, rec:14, votoTxt:"Eccellente",
+  area:"est", zona:"Ag. Nikolaos", where:"Mikro Vathi, Agios Nikolaos — est",
+  prezzo:1561, prezzoWas:1722, voto:9.4, rec:14,
   camere:2, mq:55, bagni:1, spiaggiaKm:1.1, spiaggiaNome:"Cave Thief",
   aeroKm:62, aeroNome:"Heraklion 62 km · Sitia 56 km",
-  mat:0, matTxt:"1 matrim. + 2 singoli",
-  canc:1, cancTxt:"Parzialmente rimborsabile",
+  lettiOk:2, lettiTxt:"1 matrimoniale + 2 singoli",
   letti:"Cam. 1: 1 letto matrimoniale · Cam. 2: 2 letti singoli · Soggiorno: 1 divano letto",
+  parkOk:2, parkTxt:"Privato gratuito",
+  canc:1, cancTxt:"Parzialmente rimborsabile",
+  giardino:true,
   serv:"Giardino, terrazza, balcone, vista mare, macchina da caffè, A/C, WiFi",
-  park:"Privato gratuito",
   host:"Host privato · lic. 00001255357",
-  top:true,
   desc:"Casa vacanze di 55 m² con vista mare sulle colline sopra Agios Nikolaos. È la più vicina a una città vera, con ristoranti e vita serale a 6,7 km, e la più comoda da raggiungere tra quelle dell'est.",
-  pro:["Agios Nikolaos a 6,7 km: l'unica con una città vera vicino","Due spiagge entro 1,4 km, cinque entro 4","62 km da Heraklion: il trasferimento più corto tra le case dell'est","Base ideale per Elounda, Spinalonga e l'altopiano di Lasithi","Sconto del 9% sul prezzo pieno"],
-  con:["Solo parzialmente rimborsabile, con pagamento online","55 m² e un bagno solo","Una coppia dorme in due letti singoli","Agios Nikolaos a settembre è ancora turistica e cara nei ristoranti"]
+  pro:["Matrimoniale vero + 2 singoli, la configurazione che cercavi","Due spiagge entro 1,4 km, cinque entro 4","Agios Nikolaos a 6,7 km: l'unica con una città vera vicino","62 km da Heraklion: il trasferimento più corto tra le case dell'est","Sconto del 9% sul prezzo pieno"],
+  con:["Solo parzialmente rimborsabile, con pagamento online","55 m² e un bagno solo","Agios Nikolaos a settembre è ancora turistica e cara nei ristoranti"]
 },
 {
-  id:"cara-creta-home", nome:"CARA Creta Home", nomeFull:"CARA Creta Home",
-  zona:"Kolymvari", where:"Kamisiana, Kolymvari — ovest",
-  prezzo:1624, prezzoWas:1792, voto:9.6, rec:26, votoTxt:"Eccezionale",
-  camere:2, mq:80, bagni:1, spiaggiaKm:1.2, spiaggiaNome:"Rapaniana",
-  aeroKm:33, aeroNome:"Chania-Souda 33 km",
-  mat:0, matTxt:"1 matrim. + castello",
-  canc:2, cancTxt:"Gratuita entro il 2 set",
-  letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 1 letto a castello",
-  serv:"Terrazza, barbecue, lavastoviglie, insonorizzazione, A/C, WiFi — nessun giardino",
-  park:"Gratuito sul posto",
-  host:"Host privato · lic. 00001976155",
-  top:false,
-  desc:"Appartamento di 80 m² a Kolymvari, nella Creta occidentale. Punteggio servizi 9,9, il più alto di tutta la selezione. Booking segnala che in questo periodo è quasi sempre già prenotato.",
-  pro:["Solo 33 km dall'aeroporto di Chania","Base perfetta per Balos, Falassarna, Elafonissi e Chania città","9,6 su 26 recensioni, con punteggio servizi 9,9","Cancellazione gratuita fino al 2 settembre: la più lunga della lista","Tre spiagge entro 3,5 km"],
-  con:["I letti sono 1 matrimoniale alla francese + 1 letto a castello: due adulti su un castello per 14 notti è una pessima idea","Nessun giardino, solo terrazza","Un bagno solo"]
+  id:"capostango-house-agapi-stunning-views-of-libyan-sea", nome:"Capostango", nomeFull:"Capostango Apartments — Stunning Views of Libyan Sea",
+  area:"sud", zona:"Costa sud", where:"Ano Rodakino — 7,7 km da Plakias",
+  prezzo:1606, prezzoWas:1736, voto:9.5, rec:33,
+  camere:2, mq:50, bagni:1, spiaggiaKm:2.9, spiaggiaNome:"Klimata",
+  aeroKm:89, aeroNome:"Chania-Souda 89 km",
+  lettiOk:2, lettiTxt:"1 matrim. francese + 2 singoli",
+  letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 2 letti singoli · Soggiorno: 2 divani letto",
+  parkOk:1, parkTxt:"Gratuito",
+  canc:2, cancTxt:"Gratuita entro il 20 ago",
+  giardino:false,
+  serv:"Terrazza, patio, balcone, barbecue, lavatrice, macchina da caffè, A/C, WiFi — nessun giardino",
+  host:"lic. 00003848882 e altre",
+  desc:"Appartamento di 50 m² affacciato sul Mar Libico, tra Plakias e Frangokastello. Punteggio servizi 9,6. La posizione al centro della costa sud lo rende la base migliore per girare l'isola.",
+  pro:["33 recensioni con 9,5: insieme a Villa Katerina il dato più affidabile","Posizione strategica: Preveli, Triopetra, Agios Pavlos, Frangokastello e Rethymno in giornata","Cancellazione gratuita fino al 20 agosto, e c'è uno sconto del 7%","Lavatrice — su due settimane conta davvero","Quattro spiagge diverse entro 3,5 km"],
+  con:["89 km dall'aeroporto di Chania, l'ultimo tratto su strade di montagna","50 m² e un bagno solo in quattro","Il matrimoniale è alla francese, 140 cm","Nella scheda della camera risulta vista montagna, non vista mare, nonostante il nome","Nessun giardino: solo terrazza, patio e balcone"]
 },
 {
   id:"afrodites-house-restaurated-oil-factory", nome:"Afrodite's House", nomeFull:"Afrodite's House — Restaurated Oil Factory",
-  zona:"Fournes", where:"Fournes / Ayia — entroterra di Chania",
-  prezzo:1527, prezzoWas:null, voto:9.6, rec:19, votoTxt:"Eccezionale",
+  area:"ovest", zona:"Fournes", where:"Fournes / Ayia — entroterra di Chania",
+  prezzo:1527, prezzoWas:null, voto:9.6, rec:19,
   camere:2, mq:65, bagni:1, spiaggiaKm:99, spiaggiaNome:"nessuna nei dintorni",
   aeroKm:27, aeroNome:"Chania-Souda 27 km",
-  mat:1, matTxt:"2 matrim. alla francese",
-  canc:2, cancTxt:"Gratuita entro il 29 ago",
+  lettiOk:2, lettiTxt:"2 matrimoniali alla francese",
   letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 1 matrimoniale alla francese · Soggiorno: 2 divani letto",
+  parkOk:2, parkTxt:"Privato gratuito",
+  canc:2, cancTxt:"Gratuita entro il 29 ago",
+  giardino:true,
   serv:"Terrazza, vista giardino, vista montagna, A/C, cucina — nessuna piscina, nessun balcone",
-  park:"Privato gratuito",
   host:"Host privato · lic. 00001320481",
-  top:false,
   desc:"Vecchio frantoio di famiglia restaurato, in un paese dell'entroterra di Chania. Le recensioni lo descrivono come autentico e curato nei dettagli, con il proprietario molto presente. A 3,7 km dal Parco Botanico di Creta.",
   pro:["27 km da Chania: la più vicina a un aeroporto di tutta la selezione","Due camere matrimoniali, una per coppia","Casa con carattere vero, non un appartamento anonimo","9,6 su 19 recensioni, tutte entusiaste dell'autenticità","Cancellazione gratuita fino al 29 agosto"],
   con:["Nessuna spiaggia nei dintorni: Booking non ne elenca neanche una","Entroterra puro, si va in auto per qualunque cosa","I due letti sono alla francese, 140 cm","Un bagno solo, niente piscina né balcone","Dotazione più spartana delle altre"]
 },
 {
   id:"karel-house-apokoronas", nome:"Karel house", nomeFull:"Karel house",
-  zona:"Apokoronas", where:"Kares, Apokoronas — entroterra ovest",
-  prezzo:1799, prezzoWas:null, voto:10, rec:11, votoTxt:"Eccezionale",
+  area:"ovest", zona:"Apokoronas", where:"Kares, Apokoronas — entroterra ovest",
+  prezzo:1799, prezzoWas:null, voto:10, rec:11,
   camere:2, mq:90, bagni:1, spiaggiaKm:99, spiaggiaNome:"nessuna nei dintorni",
   aeroKm:36, aeroNome:"Chania-Souda 36 km",
-  mat:2, matTxt:"2 matrimoniali veri",
-  canc:2, cancTxt:"Gratuita entro il 20 ago",
+  lettiOk:2, lettiTxt:"2 matrimoniali veri + 1 singolo",
   letti:"Cam. 1: 1 letto singolo + 1 letto matrimoniale · Cam. 2: 1 letto matrimoniale",
+  parkOk:1, parkTxt:"Gratuito",
+  canc:2, cancTxt:"Gratuita entro il 20 ago",
+  giardino:true,
   serv:"Giardino, terrazza, patio, balcone, barbecue, insonorizzazione, macchina da caffè, A/C, WiFi — le recensioni citano una vasca idromassaggio",
-  park:"Gratuito sul posto",
   host:"Host privato · lic. 00002087393",
-  top:false,
   desc:"Casa di 90 m² in un paese dell'Apokoronas, la zona più verde di Creta occidentale. Punteggio pieno, 10 su 11 recensioni, con lode unanime per i proprietari. Booking segnala che di solito in questo periodo è già prenotata.",
   pro:["Due matrimoniali veri, non alla francese: l'unica insieme a Villa Mia","90 m², la seconda più grande della selezione","Giardino, terrazza, patio e balcone tutti insieme","36 km da Chania","Cancellazione gratuita fino al 20 agosto","Le recensioni citano una vasca idromassaggio"],
   con:["Nessuna spiaggia nei dintorni elencata da Booking","La più cara della selezione","10 su 11 recensioni: bello, ma statisticamente fragile","Un bagno solo per 90 m²"]
+},
+{
+  id:"cara-creta-home", nome:"CARA Creta Home", nomeFull:"CARA Creta Home",
+  area:"ovest", zona:"Kolymvari", where:"Kamisiana, Kolymvari — ovest",
+  prezzo:1624, prezzoWas:1792, voto:9.6, rec:26,
+  camere:2, mq:80, bagni:1, spiaggiaKm:1.2, spiaggiaNome:"Rapaniana",
+  aeroKm:33, aeroNome:"Chania-Souda 33 km",
+  lettiOk:1, lettiTxt:"1 matrim. francese + letto a castello",
+  letti:"Cam. 1: 1 matrimoniale alla francese · Cam. 2: 1 letto a castello",
+  parkOk:1, parkTxt:"Gratuito",
+  canc:2, cancTxt:"Gratuita entro il 2 set",
+  giardino:false,
+  serv:"Terrazza, barbecue, lavastoviglie, insonorizzazione, A/C, WiFi — nessun giardino",
+  host:"Host privato · lic. 00001976155",
+  desc:"Appartamento di 80 m² a Kolymvari, nella Creta occidentale. Punteggio servizi 9,9, il più alto di tutta la selezione. Booking segnala che in questo periodo è quasi sempre già prenotato.",
+  pro:["Solo 33 km dall'aeroporto di Chania","Base perfetta per Balos, Falassarna, Elafonissi e Chania città","9,6 su 26 recensioni, con punteggio servizi 9,9","Cancellazione gratuita fino al 2 settembre: la più lunga della lista","Tre spiagge entro 3,5 km"],
+  con:["La seconda camera è un letto a castello: due adulti lì sopra per 14 notti è una pessima idea","È l'unica delle 8 che non rispetta il requisito dei 4 letti veri","Nessun giardino, solo terrazza","Un bagno solo"]
 }
+];
+
+const AREE = [
+  {k:"est",   t:"Est e sud-est", d:"Ierapetra, Sitia, Agios Nikolaos. I prezzi più bassi e le case più grandi, ma 53-83 km dall'aeroporto."},
+  {k:"sud",   t:"Costa sud",     d:"Tra Plakias e Frangokastello. La base migliore per girare, la più scomoda da raggiungere."},
+  {k:"ovest", t:"Ovest (Chania)",d:"27-36 km dall'aeroporto di Chania, vicino a Balos ed Elafonissi. Ma le tre case dell'ovest hanno tutte un difetto serio."}
 ];
 
 const BASE = "https://www.booking.com/hotel/gr/";
@@ -329,17 +344,18 @@ const link = d => BASE + d.id + ".it.html" + Q;
 
 const eur = n => "€ " + n.toLocaleString("it-IT");
 const km  = v => v === 99 ? "—" : (v < 1 ? Math.round(v*1000) + " m" : String(v).replace(".",",") + " km");
-const matCell = d => d.mat === 2 ? '<span class="yes">✅ ' + d.matTxt + '</span>'
-                   : d.mat === 1 ? '<span class="mid">◐ ' + d.matTxt + '</span>'
-                   : '<span class="no">✕ ' + d.matTxt + '</span>';
+const num = v => String(v).replace(".",",");
+
+const lettiCell = d => d.lettiOk === 2
+  ? '<span class="yes">✅</span> ' + d.lettiTxt
+  : '<span class="mid">◐</span> ' + d.lettiTxt;
+const parkCell = d => '<span class="yes">✅</span> ' + d.parkTxt;
 const cancCell = d => d.canc === 2 ? '<span class="yes">' + d.cancTxt + '</span>'
                     : d.canc === 1 ? '<span class="mid">' + d.cancTxt + '</span>'
                     : '<span class="no">' + d.cancTxt + '</span>';
 
-DATA.forEach(d => { d.matSort = d.mat; d.cancSort = d.canc; });
-
 const tb = document.getElementById("tb");
-const cardsEl = document.getElementById("cards");
+const areasEl = document.getElementById("areas");
 const countEl = document.getElementById("count");
 let rows = DATA.slice();
 
@@ -348,56 +364,71 @@ function renderTable(){
     <td class="name"><a href="${link(d)}" target="_blank" rel="noopener">${d.nome}</a></td>
     <td>${d.zona}</td>
     <td class="price">${eur(d.prezzo)}</td>
-    <td>${String(d.voto).replace(".",",")} <span style="color:var(--dim)">(${d.rec})</span></td>
-    <td>${d.camere}</td>
-    <td>${d.mq}</td>
+    <td>${num(d.voto)} <span style="color:var(--dim)">(${d.rec})</span></td>
+    <td class="letti">${lettiCell(d)}</td>
+    <td>${parkCell(d)}</td>
     <td>${d.bagni}</td>
+    <td>${d.mq}</td>
     <td>${km(d.spiaggiaKm)}</td>
-    <td>${matCell(d)}</td>
     <td>${cancCell(d)}</td>
     <td>${d.aeroKm} km</td>
   </tr>`).join("");
   countEl.textContent = rows.length + " di " + DATA.length + " case";
 }
 
-function renderCards(){
-  cardsEl.innerHTML = rows.map(d => `<article class="card${d.top ? " top" : ""}">
-    <h3>${d.nomeFull}</h3>
+function cardHtml(d){
+  return `<article class="card">
+    <h4>${d.nomeFull}</h4>
     <p class="where">${d.where}</p>
     <div class="pricerow">
       <span class="big">${eur(d.prezzo)}</span>
       ${d.prezzoWas ? `<span class="was">${eur(d.prezzoWas)}</span>` : ""}
       <span class="per">14 notti · 4 adulti · tutto incluso</span>
-      <span class="score">${String(d.voto).replace(".",",")} <span style="font-weight:400;color:var(--dim)">(${d.rec})</span></span>
+      <span class="score">${num(d.voto)} <span style="font-weight:400;color:var(--dim)">(${d.rec})</span></span>
     </div>
-    <p>${d.desc}</p>
+    <div class="keyrow">
+      <span class="chip ok">🅿️ ${d.parkTxt}</span>
+      <span class="chip ${d.lettiOk===2?"ok":"wr"}">🛏️ ${d.lettiOk===2?"4 letti veri":"letto a castello"}</span>
+      <span class="chip ${d.bagni>1?"ok":""}">🚿 ${d.bagni} bagn${d.bagni>1?"i":"o"}</span>
+      <span class="chip ${d.giardino?"ok":""}">🌿 ${d.giardino?"Giardino + terrazza":"Solo terrazza"}</span>
+      <span class="chip ${d.canc===2?"ok":d.canc===1?"wr":"bd"}">${d.canc===2?"↩️ ":"⚠️ "}${d.cancTxt}</span>
+    </div>
+    <p class="desc">${d.desc}</p>
     <dl class="facts">
       <dt>Letti</dt><dd>${d.letti}</dd>
-      <dt>Spazio</dt><dd>${d.mq} m² · ${d.camere} camere · ${d.bagni} bagn${d.bagni>1?"i":"o"} · max 4 persone</dd>
+      <dt>Spazio</dt><dd>${d.mq} m² · ${d.camere} camere · max 4 persone</dd>
       <dt>Spiaggia</dt><dd>${d.spiaggiaKm===99 ? "Nessuna nei dintorni" : km(d.spiaggiaKm) + " — " + d.spiaggiaNome}</dd>
       <dt>Aeroporto</dt><dd>${d.aeroNome}</dd>
       <dt>Servizi</dt><dd>${d.serv}</dd>
-      <dt>Parcheggio</dt><dd>${d.park}</dd>
-      <dt>Cancellazione</dt><dd>${cancCell(d)}</dd>
       <dt>Gestione</dt><dd>${d.host}</dd>
     </dl>
     <div class="pc">
-      <div class="pro"><h4>Pro</h4><ul>${d.pro.map(x=>`<li>${x}</li>`).join("")}</ul></div>
-      <div class="con"><h4>Contro</h4><ul>${d.con.map(x=>`<li>${x}</li>`).join("")}</ul></div>
+      <div class="pro"><h5>Pro</h5><ul>${d.pro.map(x=>`<li>${x}</li>`).join("")}</ul></div>
+      <div class="con"><h5>Contro</h5><ul>${d.con.map(x=>`<li>${x}</li>`).join("")}</ul></div>
     </div>
     <a class="cta" href="${link(d)}" target="_blank" rel="noopener">Apri su Booking →</a>
-  </article>`).join("");
+  </article>`;
+}
+
+function renderCards(){
+  areasEl.innerHTML = AREE.map(a => {
+    const list = rows.filter(d => d.area === a.k);
+    if(!list.length) return "";
+    return `<h3 class="area">${a.t} — ${list.length} cas${list.length>1?"e":"a"}</h3>
+            <p class="areasub">${a.d}</p>
+            <div class="cards">${list.map(cardHtml).join("")}</div>`;
+  }).join("");
 }
 
 function render(){ renderTable(); renderCards(); }
 
-// filtri
-const filters = { mat:false, canc:false, mare:false };
+const filters = { letti:false, canc:false, bagni:false, mare:false };
 function applyFilters(){
   rows = DATA.filter(d =>
-    (!filters.mat  || d.mat >= 1) &&
-    (!filters.canc || d.canc === 2) &&
-    (!filters.mare || d.spiaggiaKm <= 1.5)
+    (!filters.letti || d.lettiOk === 2) &&
+    (!filters.canc  || d.canc === 2) &&
+    (!filters.bagni || d.bagni > 1) &&
+    (!filters.mare  || d.spiaggiaKm <= 1.5)
   );
   render();
 }
@@ -409,22 +440,23 @@ function toggle(id, key){
     applyFilters();
   });
 }
-toggle("f-mat","mat"); toggle("f-canc","canc"); toggle("f-mare","mare");
+toggle("f-letti","letti"); toggle("f-canc","canc");
+toggle("f-bagni","bagni"); toggle("f-mare","mare");
 document.getElementById("f-reset").addEventListener("click", () => {
   Object.keys(filters).forEach(k => filters[k] = false);
-  ["f-mat","f-canc","f-mare"].forEach(i => document.getElementById(i).setAttribute("aria-pressed","false"));
+  ["f-letti","f-canc","f-bagni","f-mare"].forEach(i =>
+    document.getElementById(i).setAttribute("aria-pressed","false"));
   applyFilters();
 });
 
-// ordinamento
 let sortK = null, sortDir = 1;
 document.querySelectorAll("#t thead th").forEach(th => {
   th.addEventListener("click", () => {
-    const k = th.dataset.k, num = th.dataset.n === "1";
+    const k = th.dataset.k, isNum = th.dataset.n === "1";
     sortDir = (sortK === k) ? -sortDir : 1;
     sortK = k;
-    rows.sort((a,b) => num ? (a[k]-b[k])*sortDir
-                           : String(a[k]).localeCompare(String(b[k]),"it")*sortDir);
+    rows.sort((a,b) => isNum ? (a[k]-b[k])*sortDir
+                             : String(a[k]).localeCompare(String(b[k]),"it")*sortDir);
     document.querySelectorAll("#t thead th").forEach(o => o.classList.remove("asc","desc"));
     th.classList.add(sortDir === 1 ? "asc" : "desc");
     render();
